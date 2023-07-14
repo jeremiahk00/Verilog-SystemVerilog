@@ -1,11 +1,11 @@
 module BCD_counter
-    #(parameter BITS = 4){
+    #(parameter BITS = 4)(
     input clk,
     input reset_n,
     input enable,
     output done,
     output [3:0] Q
-    };
+    );
     
     reg [3: 0] Q_reg, Q_next;
 

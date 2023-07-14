@@ -25,4 +25,3 @@ module mod_counter_hardcoded
   //output logic
   assign Q = Q_reg;
 endmodule
-  

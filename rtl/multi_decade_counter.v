@@ -1,10 +1,10 @@
-module multi_decade_counter {
+module multi_decade_counter (
   input clk,
   input reset_n,
   input enable,
   output done, // to cascade it even more
   output [3:0] ones, tens, hundredths
-};
+);
 
   wire done0, done1, done2;
   wire a0, a1, a2;

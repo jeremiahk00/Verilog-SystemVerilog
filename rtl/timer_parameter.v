@@ -1,5 +1,5 @@
 module timer_parameter
-    #(parameter FINAL_VALUE = 9){
+    #(parameter FINAL_VALUE = 255){
     input clk,
     input reset_n,
     input enable,

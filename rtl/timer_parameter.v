@@ -1,10 +1,10 @@
 module timer_parameter
-    #(parameter FINAL_VALUE = 255){
+    #(parameter FINAL_VALUE = 255)(
     input clk,
     input reset_n,
     input enable,
     output done
-    };
+    );
 
     localparam BITS  = $clog2(FINAL_VALUE);
   

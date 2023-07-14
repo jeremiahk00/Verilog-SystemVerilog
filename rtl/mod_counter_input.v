@@ -1,11 +1,11 @@
 module mod_counter_hardcoded
-    #(parameter BITS = 4){
+    #(parameter BITS = 4)(
     input clk,
     input reset_n,
     input enable,
     input [BITS - 1:0] FINAL_VALUE,
     output [BITS - 1:0] Q
-    };
+    );
     
     reg [BITS - 1: 0] Q_reg, Q_next;
     wire done;

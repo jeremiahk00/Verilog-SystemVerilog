@@ -1,5 +1,5 @@
 module mod_counter_hardcoded
-  	#parameter BITS = 4){
+  	#(parameter BITS = 4){
  	  input clk,
   	input reset_n,
   	input enable,

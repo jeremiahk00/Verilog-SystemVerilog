@@ -1,4 +1,4 @@
-module mod_counter_hardcoded
+module mod_counter_parameter
     #(parameter FINAL_VALUE = 9){
     input clk,
     input reset_n,

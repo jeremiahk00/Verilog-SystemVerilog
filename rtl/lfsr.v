@@ -21,6 +21,7 @@ module lfsr
 
   assign Q = Q_reg;
   //longest possible pseudo-random sequence for n=3
+  //https://www.xilinx.com/support/documentation/application_notes/xapp052.pdf
   assign taps = Q_reg[2] ^ Q_reg[3];
 
 endmodule

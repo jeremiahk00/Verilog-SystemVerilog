@@ -20,7 +20,7 @@ module lfsr
     Q_next = {taps, Q_reg[1:N-1]};
 
   assign Q = Q_reg;
-  //longest possible pseudo-random sequence
+  //longest possible pseudo-random sequence for n=3
   assign taps = Q_reg[2] ^ Q_reg[3];
 
 endmodule
